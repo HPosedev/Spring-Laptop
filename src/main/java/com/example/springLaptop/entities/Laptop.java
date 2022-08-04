@@ -12,19 +12,20 @@ public class Laptop {
     private Long id;
     private String brand;
     private String model;
-    private int screen;
+    private double screen;
     private int price;
 
     public Laptop() {
     }
 
-    public Laptop(Long id, String brand, String model, int screen, int price) {
+    public Laptop(Long id, String brand, String model, double screen, int price) {
         this.id = id;
         this.brand = brand;
         this.model = model;
         this.screen = screen;
         this.price = price;
     }
+
 
     public Long getId() {
         return id;
@@ -50,11 +51,11 @@ public class Laptop {
         this.model = model;
     }
 
-    public int getScreen() {
+    public double getScreen() {
         return screen;
     }
 
-    public void setScreen(int screen) {
+    public void setScreen(double screen) {
         this.screen = screen;
     }
 
