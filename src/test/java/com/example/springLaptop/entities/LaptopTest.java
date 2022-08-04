@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LaptopTest {
 
     Laptop laptop = new Laptop(1L, "Dell", "XPS", 15.6, 1500);
+    Laptop laptop2 = new Laptop();
     @Test
     void getId() {
         Long result = laptop.getId();
