@@ -2,4 +2,4 @@
 
 ## Laptop API
 
-### Create my own API about laptops
+### Create my own API to compare different laptops in the market
